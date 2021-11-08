@@ -1,0 +1,140 @@
+/*    RESPONSIVENESS DESIGN FOR INDEX PAGE    */
+  @media only screen and (max-width: 1200px) {
+    
+    /*  changes in header */
+    #header-box2{
+        width: 50%;
+    }
+    .logo-image{
+        margin-left: -20%;
+        height: 24%;
+    }
+    /*  changes in main section  */
+    main{
+        width: 80%;
+    }
+   
+    aside{
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+    }
+    /* changes in footer section */
+    #footer-inside{
+        margin-left: -9%;
+    }
+    .volume-controls{
+        width: 35%;
+    }
+    footer{
+        width: 101vw;
+    }
+
+}
+  
+  @media screen and (max-width:850px) {
+
+    /* changes int header */
+    .spotify-image{
+        margin-left: -25%;
+        height: 35%;
+    }
+    .res-eng-hin-del1{
+        display: none;
+    }
+    /* changes in footer */
+    .volume-controls{
+        display: none;
+    }
+    footer{
+        width: 101vw;
+    }
+    #footer-inside{
+        margin-left: 2%;
+    }
+    .audio-controls{
+        width: 80%;
+        margin-top: 0.8%;
+    }
+    .slider-box input{
+        margin-left: -9%;
+        width: 40vw;
+    }
+}
+
+  @media screen and (max-width:750px) {
+
+    /* changes in header */
+    .ninja-studio-name{
+        font-size: 0.9rem;
+        margin-top: 0%;
+        margin-left: -12%;
+    }
+  
+    /* changes in aside section */
+    aside{
+        margin-top: 5%;
+    }
+    .res-singer-del1{
+        display: none;
+    }
+    .res-radio-del1{
+        display: none;
+    }
+    /* changes in footer */
+    footer{
+        width: 101vw;
+    }
+      
+}
+  
+  @media screen and (max-width:650px) {
+      
+    /* changes in header */
+      .ninja-studio-name{
+          font-size: 0.8rem;
+          margin-top: 0%;
+          margin-left: -10%;
+      }
+      .favourite-name{
+          font-size: 0.9rem;
+      }
+      /* changes in main section */
+      .release-songs-box{
+          width: 70%;
+          height: 50%;
+      }
+      .res-singer-del2{
+          display: none;
+      }  
+       
+      .res-eng-hin-del2{
+          display: none;
+      }
+}
+  
+  @media screen and (max-width:590px) {
+
+    /* changes in header */
+    #header-box-inside2{
+        width: 80vw;
+    }
+    .favourite-name{
+        font-size: 0.7rem;
+    }
+    .ninja-studio-name{
+        font-size: 0.7rem;
+    }
+    /* changes in main */
+    .res-radio-del2{
+        display: none;
+      }
+    .each-occation a{
+        font-size: 1.4rem;
+    }
+    /* changes in footer */
+    footer{
+        width: 101vw;
+    }
+      
+}

@@ -1,0 +1,769 @@
+<html>
+
+<head>
+    <title>Ninja Studio</title>
+    <!--Icon in HTML Document-->
+    <link rel="icon" href="Image/logo.png">
+    <!--Link with main css file-->
+    <link rel="stylesheet" href="style.css">
+    <!-- linking css file for responsive-index -->
+    <link rel="stylesheet" href="responsive-index.css">
+    <!-- adding fontawesome for icons -->
+    <script src="https://kit.fontawesome.com/2770690ce5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <div id="header-box">
+            <div id="header-box1">
+                <!--company logo -->
+                <div>
+                    <img src="Image/logo.png" class="logo-image" alt="Ninja Studio">
+                </div>
+                <!--company name -->
+                <div class="ninja-studio-name">
+                    <span>Ninja<br><b>Studio</b></span>
+                </div>
+                <!-- favourites -->
+                <div class="favourite-name">
+                    <span>Favourites</span>
+                </div>
+            </div>
+
+            <div id="header-box2">
+                <!-- search bar -->
+                <div id="header-search-box">
+                    <form>
+                        <button class="search-icon"><i class="fas fa-search"></i></button>
+                        <input type="text" placeholder="Search" class="search-bar">
+                        <button class="mic-icon"><i class="fas fa-microphone"></i></button>
+                    </form>
+                </div>
+
+                <!-- bell icon-->
+                <div class="bell-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+
+                <!--Image of user -->
+                <div>
+                    <img src="Image/Amit.jpeg" class="header-img" alt="User Image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- first section scrolling images -->
+        <section id="images-scrolling-section">
+            <img src="Image/ncs.jpg" class="images-scroller">
+            <img src="Image/type1.jpg" class="images-scroller">
+            <img src="Image/music.jpg" class="images-scroller">
+        </section>
+
+
+        <section id="latest-release-section">
+            <!-- latest release section name -->
+            <div class="latest-release-name">
+                <b>Latest Release</b>
+            </div>
+            <!-- latest release songs list-->
+            <div id="latest-release-songs">
+                <!-- latest release song 1 -->
+                <div class="release-songs-list">
+                    <div class="release-song">
+                        <div class="release-song-image"><img src="Image/onism.jpg" alt="player"></div>
+                        <div class="release-song-name">Onism <br> <span>Sept 11,2021</span></div>
+                    </div>
+                    <div>
+                        <div class="release-three-dots"><a href="#">...</a></div>
+                        <div class="release-song-name">3:43</div>
+                    </div>
+                </div>
+
+                <!-- latest release song 2-->
+                <div class="release-songs-list">
+                    <div class="release-song">
+                        <div class="release-song-image"><img src="Image/one.jfif" alt="player"></div>
+                        <div class="release-song-name">Comeback <br> <span>Aug 15,2021</span></div>
+                    </div>
+                    <div>
+                        <div class="release-three-dots"><a href="#">...</a></div>
+                        <div class="release-song-name">4:23</div>
+                    </div>
+                </div>
+
+                <!-- latest release song 3-->
+                <div class="release-songs-list">
+                    <div class="release-song">
+                        <div class="release-song-image"><img src="Image/selena.jpg" alt=" Adios song"
+                                style="margin-left: -5%;"></div>
+                        <div class="release-song-name" style="margin-left: -10px;">Adiós <br> <span>Oct 29,2021</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="release-three-dots"><a href="#">...</a></div>
+                        <div class="release-song-name">3:54</div>
+                    </div>
+                </div>
+
+                <!-- latest release song 4-->
+                <div class="release-songs-list">
+                    <div class="release-song">
+                        <div class="release-song-image"><img src="Image/Katy_Perry.jpg" alt="Smile Song"></div>
+                        <div class="release-song-name">Smile <br> <span>Aug 08,2021</span></div>
+                    </div>
+                    <div>
+                        <div class="release-three-dots"><a href="#">...</a></div>
+                        <div class="release-song-name">4:44</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        
+        <section id="artist-section">
+            <!-- popular artist heading -->
+            <div class="popular-artist-name">
+                <strong>Popular Artists</strong>
+            </div>
+            <!-- all popular singers list -->
+            <div class="singers-list">
+                <div class="singer res-singer-del1"> <a href="artist-songs.html"><img src="Image/shakira.jpg"
+                            alt="Shakira"></a><span>Shakira</span> </div>
+                <div class="singer"> <a href="artist-songs.html"><img src="Image/Ed shereen.jpg"
+                            alt="Ed shereen"></a><span>Ed shereen</span></div>
+                <div class="singer"> <a href="artist-songs.html"><img src="Image/SonuNigam_saavn.jpg" alt="Sonu Nigam"
+                            style="width: 80%;"></a><span>Sonu Nigam</span></div>
+                <div class="singer"> <a href="artist-songs.html"><img src="Image/arijit singh.jpg" alt="Arijit Singh"
+                            style="margin-left: -13%;"></a><span>Arijit Singh</span> </div>
+                <div class="singer"> <a href="artist-songs.html"><img src="Image/selena.jpg"
+                            alt="selena"></a><span>selena</span></div>
+                <div class="singer res-singer-del2"> <a href="artist-songs.html"><img src="Image/Katy_Perry.jpg"
+                            alt="katty"></a><span>katty</span></div>
+                <div class="singer res-singer-del1"> <a href="artist-songs.html"><img src="Image/justin_bieber.jpg"
+                            alt="Justin Bieber"></a><span>Justin Bieber</span></div>
+            </div>
+        </section>
+
+        
+        <section id="radio-station-section">
+            <!-- all stations list -->
+            <div class="stations-list">
+                <div class="single-station " style="background-image: url(Image/podcast.jpg);"></div>
+                <div class="single-station res-radio-del1" style="background-image: url(Image/love.jpg);"> <span
+                        class="station-name">Love</span> </div>
+                <div class="single-station" style="background-image: url(Image/pop.jpg);"> <span
+                        class="station-name">pop</span></div>
+                <div class="single-station" style="background-image: url(Image/retro.jpg);"><span
+                        class="station-name">retro</span> </div>
+                <div class="single-station res-radio-del2" style="background-image: url(Image/rock.jpg);"> <span
+                        class="station-name">rock</span></div>
+                <div class="single-station" style="background-image: url(Image/workout.jpg);"><span
+                        class="station-name">Gym</span> </div>
+                <div class="single-station res-radio-del1" style="background-image: url(Image/chill.jpg);"> </div>
+            </div>
+        </section>
+
+        <!--occation section -->
+        <section id="occation-section">
+            <div class="all-occation">
+                <div class="occationtype" style="background-image: url(Image/party.jpg);"><a href="#">Party</a></div>
+            </div>
+            <div class="all-occation">
+                <div class="occationtype" style="background-image: url(Image/electronic-music.jpg);"><a href="#">Electronic</a>
+                </div>
+            </div>
+            <div class="all-occation">
+                <div class="occationtype" style="background-image: url(Image/Road\ trip.jpg);"><a href="#">Road trip</a></div>
+            </div>
+        </section>
+
+        <!-- Latest English songs -->
+        <section id="english-songs-section">
+            <div class="english-hindi-heading">
+                <strong>Latest English</strong>
+            </div>
+            <div class="english-hindi-songs-list">
+                <div class="all-hindi-english-song">
+                    <img src="Image/e1.jpg" alt=""><br>
+                    divide <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song">
+                    <img src="Image/k1.jpg" alt=""><br>
+                    love <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song">
+                    <img src="Image/j2.jpg" alt=""><br>
+                    sorry <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song">
+                    <img src="Image/e2.jpg" alt=""><br>
+                    shape of you <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del2">
+                    <img src="Image/e3.jpg" alt=""><br>
+                    happier <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del1">
+                    <img src="Image/k2.jpg" alt=""><br>
+                    k-pop <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del1">
+                    <img src="Image/j3.png" alt=""><br>
+                    bieber <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del1">
+                    <img src="Image/yummy.jpg" alt=""><br>
+                    yummy <br> <span>AUG 11, 2017</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Hindi songs -->
+        <section id="hindi-songs-section">
+            <div class="english-hindi-heading">
+                <strong>Latest Hindi</strong>
+            </div>
+            <div class="english-hindi-songs-list">
+                <div class="all-hindi-english-song">
+                    <img src="Image/navnit.jpeg" alt=""><br>
+                    Hum Tere<br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song">
+                    <img src="Image/Jubin.jpg" alt=""><br>
+                    Tujhe Bhoolna <br> <span>AUG 14, 2021</span>
+                </div>
+                <div class="all-hindi-english-song">
+                    <img src="Image/SonuNigam_saavn.jpg" alt=""><br>
+                    Is Kadar <br> <span>AUG 11, 2017</span>
+                </div>
+                <div class="all-hindi-english-song">
+                    <img src="Image/Shaan singer.jpg" alt=""><br>
+                    snipe <br> <span>OCT 15, 2021</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del2">
+                    <img src="Image/neeti.jpg" alt=""><br>
+                    Kithe reh <br> <span>OCT 15, 2021</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del1">
+                    <img src="Image/Tulsi-Kumar.jpg" alt=""><br>
+                    tere naal <br> <span>OCT 15, 2021</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del1">
+                    <img src="Image/Darshan-Raval.jpg" alt=""><br>
+                   Ek tarfa <br> <span>OCT 15, 2021</span>
+                </div>
+                <div class="all-hindi-english-song res-eng-hin-del1">
+                    <img src="Image/arijit singh.jpg" alt=""><br>
+                    pehli dafa <br> <span>OCT 15, 2021</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ASIDE SECTION -->
+    <aside>
+        <!-- aside heading -->
+        <div class="aside-heading">
+            <div class="queue-name">My Playlist</div>
+            <div class="queue-list-icon"><a href="#">Queue <i class="fas fa-sort-down"></i></a></div>
+        </div>
+        <!-- all songs list -->
+        <div class="songs-list">
+            <!-- First song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        01
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish3.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Pehli dafa</span> <br> <span class="song-name2">Arijit Singh</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- second song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        02
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish5.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Is Kadar</span> <br> <span class="song-name2">Sonu Nigam</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- third song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        <i class="fas fa-stream"></i>
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish2.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Kithe Reh</span> <br> <span class="song-name2">Neeti Mohan </span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- forth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        04
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish4.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Already</span> <br> <span class="song-name2">One Direction</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- fifth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        05
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish2.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- sixth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        06
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish2.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- seventh song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        07
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish3.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- eighth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        08
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish4.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- nineth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        09
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish5.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- tenth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        10
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish2.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- eleventh song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        11
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish2.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- twelveth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        12
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish3.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- thirteenth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        13
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish4.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- fourteenth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        14
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish5.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- fifteenth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        15
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish2.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+
+            <!-- sixteenth song -->
+            <div class="single-song">
+                <div class="song-inside">
+                    <!-- song number -->
+                    <div class="song-number">
+                        16
+                    </div>
+                    <!-- image -->
+                    <div class="image-box">
+                        <img src="Image/latestEnglish4.JPG" alt="Avatar" class="image">
+                        <div class="icon-box">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- song name -->
+                    <div class="song-name">
+                        <span class="song-name1">Mirage</span> <br> <span class="song-name2">Else</span>
+                    </div>
+                </div>
+                <!-- heart icon -->
+                <div class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- FOOTER SECTION  -->
+    <footer>
+        <div id="footer-inside">
+            <!-- SONG name -->
+            <div id="audio-name">
+                <div class="footer-song-logo">
+                    <img src="Image/latestEnglish2.JPG" alt="songlogo">
+                </div>
+                <div class="footer-name-details">
+                    <div class="footer-song-name">
+                        Mirage<br>
+                        <span>Else</span>
+                    </div>
+                    <div class="footer-i-tag">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="footer-i-tag">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- audio controls -->
+            <div class="audio-controls">
+                <!-- audio icons -->
+                <div class="controls-icon">
+                    <span>
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                    </span>
+                    <i class="far fa-pause-circle"></i>
+                    <span>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-redo"></i>
+                    </span>
+
+                </div>
+                <!-- play bar -->
+                <div class="slider-box">
+                    <div><span>1:29</span></div>&nbsp;
+                    <div class="range-slider"><input type="range" min="0" max="100" id="range-starter"></div>&nbsp;
+                    <div><span>4:37</span></div>
+                </div>
+            </div>
+            <!-- volume controls -->
+            <div class="volume-controls">
+                <div><i class="fas fa-th-list"></i></div>
+                <div><i class="fas fa-laptop-house"></i></div>
+                <div><i class="fas fa-volume-up"></i></div>
+                <div><input type="range" min="0" max="100"></div>
+                <div><i class="fas fa-expand-alt"></i></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

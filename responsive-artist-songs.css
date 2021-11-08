@@ -1,0 +1,135 @@
+        /*   RESPONSIVENESS DESIGN   */
+
+        /*Desktop view to mobile view */
+  @media only screen and (max-width: 1200px) {
+    
+    /* changes in header */
+    #header-box2{
+        width: 50%;
+    }
+    .logo-image{
+        margin-left: -20%;
+        height: 24%;
+    }
+    /* changes in main */
+    #player-image{
+        display: none;
+    } 
+    /*changes in footer */
+    footer{
+        width: 101vw;
+    }
+    #footer-inside{
+        margin-left: -9%;
+    }
+    .volume-controls{
+        width: 35%;
+    }
+}
+
+  
+  @media screen and (max-width:900px) {
+      
+    /* changes in header */
+    .logo-image{
+        margin-left: -25%;
+        height: 35%;
+    }
+    /* changes in main section */
+    main{
+        width: 80%;
+        margin-left: 10%;
+    }
+    /*changes in aside section */
+    aside{
+        display: block;
+        margin-top: 3%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .similar-names{
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    /* changes in footer */
+    .volume-controls{
+        display: none;
+    }
+    footer{
+        width: 101vw;
+    }
+    #footer-inside{
+        margin-left: 2%;
+    }
+    .audio-controls{
+        width: 80%;
+        margin-top: 0.8%;
+    }
+    .slider-box input{
+        margin-left: -9%;
+        width: 40vw;
+    }
+}
+
+
+  @media screen and (max-width:800px) {
+   
+    /*changes in header */
+    .ninja-studio-name{
+        font-size: 0.9rem;
+        margin-top: 0%;
+        margin-left: -12%;
+    }
+    /*changes in footer */
+    footer{
+        width: 100vw;
+    }
+      
+}
+
+
+  @media screen and (max-width:590px) {
+
+    /* changes in header */
+    #header-box2{
+        width: 60vw;
+    }
+    /* song */
+    .song{
+        margin-top: 2%;
+    }
+    /* change in footer */
+    footer{
+        width: 101vw;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:500px) {
+
+     /* changes in header */
+    .play-all{
+        width: 50%;
+        margin-top: -7%;
+    }
+    .follow-sign{
+        margin-left: 17%;
+        margin-top: 12vh;
+    }
+    .favourite-name{
+        font-size: 0.7rem;
+    }
+    .ninja-studio-name{
+        font-size: 0.7rem;
+    }
+    /* changes in player title */
+    #player-title-box{
+        flex-direction: column;
+        height: 33%;
+    }
+    .View a{
+        display: none;
+    }
+}
